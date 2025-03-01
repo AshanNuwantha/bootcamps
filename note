@@ -16,3 +16,7 @@
 # docker tag people_counting:bootcamp ashannuwantha/people_counting:bootcamp
 # docker push ashannuwantha/people_counting:bootcamp
 
+# https://hub.docker.com/repository/docker/ashannuwantha/people_counting/general
+# https://hub.docker.com/r/ashannuwantha/people_counting
+
+# https://github.com/AshanNuwantha/bootcamps/tree/master
