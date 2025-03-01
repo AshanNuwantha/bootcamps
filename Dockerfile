@@ -30,9 +30,13 @@ CMD python3 People_count.py
 
 
 
-# docker build -t people_counting:course .
-# docker run -dt --name My_project -v D:\Coursers\BootCamp\week04\Assignment\project:/home/people_counter/configs  --restart always people_counting:course
+# docker build -t people_counting:bootcamp .
+# docker run -dt --name My_project -v D:\Coursers\BootCamp\week04\Assignment\project:/home/people_counter/configs  --restart always people_counting:bootcamp
 # docker exec -it My_project /bin/bash
 # docker logs -f My_project
 # docker stop My_project
+
+# docker tag people_counting:bootcamp ashannuwantha/people_counting:bootcamp
+# docker push ashannuwantha/people_counting:bootcamp
+
 
